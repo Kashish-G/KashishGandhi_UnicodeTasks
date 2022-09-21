@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kashish Gandhi-Portfolio</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <div class="contactmain">
+        <div class="container">
+            <div class="sidebar" id="sidebar">
+                <img class="logo" id="logo" src="images/logo.png" alt="logo"> 
+               <nav>
+              
+               <ul>
+                
+                    <li><a href="/">Home</a></li>
+                    <li><a href="AboutMe.html">About Me</a></li>
+                    <li><a href="WorkExperience.html">Work Experience</a></li>
+                   
+            <button class="button__blog"><a href="Skills.html">Skills</a></button>
+              
+               </ul>
+            </nav> 
+            
+        </div>
+        <div class="formcontainer">
+          
+    <div class="forminfo">
+        <div class="heading">Let's Connect!</div>
+    <form name="contact_form" id="contactform">
+        <input type="text" id="fname" name="fname" placeholder="Name">
+        <div id="name-error"></div>
+       <br>
+        <input type="email" id="email" name="email" placeholder="Email (example@email.com)">
+        <div id="email-error"></div>
+        <br>
+        <input type="text" id="mobile" name="mobile" placeholder="Contact number">
+        <div id="mobile-error"></div>
+        <br>
+        <input type="text" id="msg" name="msg" placeholder="Message">
+        <div id="msg-error"></div>
+        <div class="button1">
+            <button class="button__inner" id="submit" >Submit</button>
+            </div>
+            <div class="popup" id="popup">
+                <img src="images/tick.png">
+                <h2>Thank You!</h2><br>
+                <h4>You will be contacted soon</h4>
+                <div class="button2">
+                <button class="button__inner" id="ok" onclick="closePopup()">OK</button>
+            </div>
+            </div>
+        </form>
+    </div>
+    </div>
+</div>
+<script src="index.js"></script>
+</body>
+</html>
