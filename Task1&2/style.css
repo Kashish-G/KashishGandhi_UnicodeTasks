@@ -223,7 +223,7 @@ margin-top: 10px;
  
   .contactmain{
     background-image: url(images/contactbg.png);
-    height: 100vh;
+    height: 100vh;  
   }
   .heading{
     font-family: 'Fjalla One', sans-serif;
@@ -682,5 +682,58 @@ margin-top: -75px;
   -moz-border-radius:25px;
   -webkit-border-radius:25px;
   border-radius:25px;
+}
+
+@media only screen and (max-width:415px) {
+  .logo{
+    height:30px;
+  }
+  .sidebar nav li{
+    
+    font-size: 13px;
+    padding: 5px 15px;
+    margin-top: 20px;
+    margin-left: -40px;
+}
+.button__blog{
+  font-size: 13px;
+  margin-left: -25px;
+}
+.sidebar nav{
+  margin-left: 28px;
+}
+.pic img{
+  height: 25vh ;
+  margin-top: 125px;
+  margin-left: -250px;
+}
+.hello,.name,.about,.more,.button1,.button2{
+  margin-left: -70px;
+}
+.about,.more{
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  word-break: break-word;
+  
+}
+.about{
+  width:350px;
+  animation: none;
+}
+.more{
+  width: 200px;
+}
+.info{
+  width:400px;
+}
+.buttons{
+  margin-left: -75px;
+}
+.button__inner{
+  width: 150px;
+}
+.infocontainer{
+  margin-top: 200px;
+}
 }
 
